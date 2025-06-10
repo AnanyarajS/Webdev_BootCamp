@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:greenyellow;
+}
+    h1{
+        color:white;
+        font-family:"Press Start 2P" ;
+    }
+   p{
+    color:greenyellow;
+    font-family:"Edu VIC WA NT Hand";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:white dotted underline
+   }
+   #p2{
+  
+    margin-left: auto;
+   }
+   #p1{
+    padding:10px;
+   }
+img{
+    float:left;
+}
+#box1{
+    border: 1px solid;
+    width:200px;
+    height:200px;
+    background-color: tomato;
+
+
+}
