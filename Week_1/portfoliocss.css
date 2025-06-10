@@ -1,3 +1,22 @@
 body{
-    background: linear-gradient(black, red);
+    background: linear-gradient(black, gold);
+    border:2px solid;
+    border-radius: 20px;
+    border-color:aliceblue;
+    
 }
+h1{
+    color:white;
+}
+img{
+    width:200px;
+    float:right;
+
+}
+div{
+    color:white;
+}
+table{
+    width:1px;
+}
+
