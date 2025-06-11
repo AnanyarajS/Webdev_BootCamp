@@ -1,22 +1,45 @@
 body{
-    background: linear-gradient(black, brown);
+    background: linear-gradient(brown, blue);
     color:white;
     font-family:"Alumni Sans SC";
     font-size:20px;
+}
+body:hover{
+    color:aqua;
 }
 h1{
     color:white;
     font-family:"Alumni Sans";
 }
+h1:hover{
+    color:aqua;
+}
 img{
     width:200px;
     float:right;
+    border:1px, solid;
+    border-radius: 10px;
 
+}
+img:hover{
+    border-color: blue;
 }
 div{
     color:white;
 }
+div:hover{
+    color:aqua;
+}
 table{
-    width:1px;
+    width:5px;
+    border:1px solid;
+    border-color:white;
+}
+tr, td{
+    border:1px solid;
+    border-color: white;
+}
+ul:hover{
+    color:aqua;
 }
 
