@@ -1,12 +1,12 @@
 body{
-    background: linear-gradient(black, gold);
-    border:2px solid;
-    border-radius: 20px;
-    border-color:aliceblue;
-    
+    background: linear-gradient(black, brown);
+    color:white;
+    font-family:"Alumni Sans SC";
+    font-size:20px;
 }
 h1{
     color:white;
+    font-family:"Alumni Sans";
 }
 img{
     width:200px;
