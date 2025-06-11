@@ -26,10 +26,14 @@ img{
     float:right;
     border:5px, solid;
     border-radius: 10px;
+    /*animation: slide;
+    animation-duration: 5s;
+    animation: slide2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;*/
+    animation:slide3;
+    animation-iteration-count: infinite;
 
-}
-img:hover{
-    border-color: black;
 }
 div{
     color:black;
@@ -51,4 +55,19 @@ ul:hover{
 }
 .fa-instagram{
     color:blanchedalmond;
+}
+@keyframes slide {
+    50%{opacity: 0};
+    
+}
+@keyframes slide2 {
+    50%{transform:scale(0.5,0.5)};
+}
+@keyframes slide3{
+    0%{border-color: red;};
+    20%{border-color:orange};
+    40%{border-color:yellow};
+    60%{border-color: green;};
+    80%{border-color: blue;};
+    100%{border-color:purple};
 }
