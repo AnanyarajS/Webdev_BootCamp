@@ -1,45 +1,54 @@
 body{
-    background: linear-gradient(brown, blue);
-    color:white;
-    font-family:"Alumni Sans SC";
+    background: linear-gradient(skyblue);
+    color:black;
+    font-family:"Roboto Condensed";
     font-size:20px;
+    
 }
 body:hover{
-    color:aqua;
+    color:brown;
+}
+p::first-letter{
+    font-size:40px;
+    
 }
 h1{
-    color:white;
+    color:black;
     font-family:"Alumni Sans";
+    text-shadow: 5px 5px 5px orangered, 5px -5px 5px yellow;
 }
 h1:hover{
-    color:aqua;
+    color:brown;
+    box-shadow: 5px 10px 5px darkblue;
 }
 img{
     width:200px;
     float:right;
-    border:1px, solid;
+    border:5px, solid;
     border-radius: 10px;
 
 }
 img:hover{
-    border-color: blue;
+    border-color: black;
 }
 div{
-    color:white;
+    color:black;
 }
 div:hover{
-    color:aqua;
+    color:brown;
 }
 table{
     width:5px;
     border:1px solid;
-    border-color:white;
+    border-color:black;
 }
 tr, td{
     border:1px solid;
-    border-color: white;
+    border-color: black;
 }
 ul:hover{
-    color:aqua;
+    color:brown;
 }
-
+.fa-instagram{
+    color:blanchedalmond;
+}
