@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:200px;
+}
