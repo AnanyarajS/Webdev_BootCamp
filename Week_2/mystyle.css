@@ -1,0 +1,12 @@
+@import "tailwindcss";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+body{
+    font-family:"Poppins", sans-serif;
+}
+@layer utilities {
+  @media (max-width: 768px) {
+    .tab{
+      @apply bg-black text-amber-50 ;
+    }
+  }
+}

@@ -7,3 +7,8 @@ img{
     display: block;
     width:200px;
 }
+@layer utilities{
+    .cool{
+       @apply flex justify-between  bg-blue-500;
+}
+}
