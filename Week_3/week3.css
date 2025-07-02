@@ -22,6 +22,8 @@ button{
     font-size: 0.7em;
     border-radius:30px;
     cursor: pointer;
+    margin-bottom:20px;
+    margin-top:10px;
 
 }
 h1{
