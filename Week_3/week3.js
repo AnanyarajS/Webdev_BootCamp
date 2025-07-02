@@ -11,14 +11,17 @@ buttons.forEach(button=>
 
 
         }
- 
+
+
         else{
             event.target.textContent = "Mark as Done";
         }
     }))
-function addTask(){
+function addremoveTask(){
     const newTask = document.createElement("li");
     const newButton = document.createElement('button');
+    const newremove = document.createElement('button');
+    newremove.textContent = "Remove Task";
     newTask.textContent = window.prompt("Enter task: ");
     newButton.textContent="Mark as Done";
     newTask.classList='button';
@@ -26,11 +29,12 @@ function addTask(){
     newTask.classList.add('list')
     tasklist.appendChild(newTask);
     newButton.classList.add('button');
-    newButton.classList='Done';
+    newremove.classList.add('button');
     tasklist.appendChild(newButton);
+    tasklist.appendChild(newremove);
     newButton.addEventListener('click', event=>{
         if(event.target.textContent==='Mark as Done'){
-            event.target.textContent = 'Done';
+            event.target.textContent ='Undo';
             newTask.append('✔️');
            
         }
@@ -39,17 +43,16 @@ function addTask(){
             newTask.removeChild(newTask.lastChild);
           
         }
+        
     })
+    newremove.addEventListener('click', event=>{
+            tasklist.removeChild(newTask);
+            tasklist.removeChild(newButton);
+            tasklist.removeChild(newremove);
+        })
+    
 
 
 }
-function removeTask(){
 
-
-}
-
-
-
-
-
-
+    
