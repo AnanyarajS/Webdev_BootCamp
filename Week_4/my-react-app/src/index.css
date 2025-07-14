@@ -41,9 +41,12 @@ input{
 }
 button{
     width:100px;
-    background-color: rgb(39, 158, 255);
+    background-color: rgb(1, 10, 17);
     border: none;
     border-radius: 5px;
+    color:white;
+    height:20px;
+   margin:20px;
 }
 #football{
     width:300px;
@@ -53,15 +56,15 @@ button{
 .box{
     display: flex;
     justify-content: space-between;
-    /* margin:20px;
-    padding:20px; */
     background-color:rgb(39, 158, 255);
+    padding:20px;
 }
 .item{
     border:1px solid black;
     box-shadow:5px 5px 5px  black;
     border-radius: 5px;
-    padding:40px;
+   
+
 }
 
 p{
@@ -69,5 +72,12 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     font-size: 1.5em;
+    margin:10px
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:5px;
+    
+}
+
 

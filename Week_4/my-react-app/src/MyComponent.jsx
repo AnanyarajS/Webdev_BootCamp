@@ -1,11 +1,16 @@
+import { useState } from "react";
 function MyComponent(){
+    const[item, setItem] = useState(""); 
+    function addItem(){
+
+    }
     return(<>
     <body>
         
   
     <nav>
         <div className="logo">InstantBuy</div>
-        <input type="text" placeholder="Enter item"/>     
+     
         <div className="option">Home</div>
         <div className="option">Settings</div>
         <div className="option">Call Us</div>     
@@ -21,7 +26,7 @@ function MyComponent(){
         </div>
         <div className="item"> 
             <img id="football" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRphOCTLXwH8bYtjEWffW6jK43lf8ZttaJPnq6w_fWif2aXCVSwEBqbsIVW8L5DbhISAHT7GcCdewjEb-bYVWWzGhiOIYx8iwBbyKu3mLfnD3ykKAMzL19R-Q" alt="" />
-            <p>Goalkeeper Gloves<button>Add to Cart</button></p>
+            <p>Goalkeeper Gloves<button >Add to Cart</button></p>
         </div>
     </div>
     <div className="cart">
@@ -30,4 +35,4 @@ function MyComponent(){
       </body>
     </>);
 }
-export default MyComponent
+export default MyComponent;
