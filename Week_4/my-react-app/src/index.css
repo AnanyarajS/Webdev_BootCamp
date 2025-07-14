@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;   
+    margin-left: auto;
+   flex: 1;
+   padding:10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(84, 177, 254) ;
+    color:rgb(1, 0, 8);
+ 
+}
+.option:hover{
+    color:rgb(70, 65, 106);
+ 
+}
+.option{
+    margin-left:80px;
+    margin-top: 5px ;
+ 
+   font-size: 1.2em;
+}
+nav .logo{
+    margin-right:auto;
+    font-size: 2em;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       width: auto;
+}
+input{
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width:500px;
+}
+button{
+    width:100px;
+    background-color: rgb(39, 158, 255);
+    border: none;
+    border-radius: 5px;
+}
+#football{
+    width:300px;
+    height:200px;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* margin:20px;
+    padding:20px; */
+    background-color:rgb(39, 158, 255);
+}
+.item{
+    border:1px solid black;
+    box-shadow:5px 5px 5px  black;
+    border-radius: 5px;
+    padding:40px;
+}
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1.5em;
+}
+
