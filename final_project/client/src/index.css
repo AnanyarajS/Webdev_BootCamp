@@ -4,6 +4,7 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 .nav{
   display:flex;
@@ -18,15 +19,18 @@
   width:100px;
   height:100px;
 }
-Link{
+span{
   margin:40px;
   font-family: "Montserrat";
   font-size: 1.2em;
   font-weight: bold;
 }
-Link:hover{
+span:hover{
   color:aquamarine;
   cursor:pointer;
+}
+span:hover, button:hover {
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 .craft{
   font-family:  "Montserrat";
@@ -156,4 +160,69 @@ button:hover{
   background-color:  rgb(21, 21, 60);
   color:rgb(6, 178, 178);
 
+}
+.nav,
+footer,
+.content2 {
+  background: linear-gradient(to right, #0f0f3e, #1b1b60);
+}
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -2px 10px rgba(0, 255, 255, 0.1);
+}
+button:hover {
+  box-shadow: 0 0 10px rgb(6, 178, 178), 0 0 20px rgb(6, 178, 178);
+}
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  span {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  .content1,
+  .content2,
+  .content3 {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .craft,
+  .precision,
+  .network {
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .chaos,
+  .data,
+  .netimg {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+    font-size: 1em;
+  }
+
+  button {
+    margin-top: 15px;
+    margin-right: 0;
+  }
 }
