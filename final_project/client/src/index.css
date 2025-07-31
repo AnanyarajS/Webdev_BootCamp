@@ -18,13 +18,13 @@
   width:100px;
   height:100px;
 }
-link{
+Link{
   margin:40px;
   font-family: "Montserrat";
   font-size: 1.2em;
   font-weight: bold;
 }
-span:hover{
+Link:hover{
   color:aquamarine;
   cursor:pointer;
 }

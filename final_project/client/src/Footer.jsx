@@ -7,7 +7,7 @@ function Footer(){
         <button href="https://www.instagram.com/tda.manipal/?hl=en">Instagram</button>
         </a>
         <a href="https://www.linkedin.com/company/the-data-alchemists/?originalSubdomain=in">
-        <button>LinkedI</button>
+        <button>LinkedIn</button>
         </a>
         <div className="location">Loacation: MIT Manipal</div>
     </footer>
